@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3B2B" />
+      <stop offset="100%" stop-color="#0E2319" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C6A15B" />
+      <stop offset="100%" stop-color="#E5C78A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+  </g>
+
+  <!-- Center Decorative Frame -->
+  <rect x="220" y="90" width="360" height="230" rx="16" fill="rgba(255,255,255,0.04)" stroke="url(#goldGrad)" stroke-width="2" stroke-dasharray="6 4" />
+
+  <!-- Camera / Heritage Monument Icon -->
+  <g transform="translate(360, 140)" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 70 L40 30 L30 30 L25 15 L55 15 L50 30 L40 30" />
+    <rect x="10" y="25" width="60" height="45" rx="6" />
+    <circle cx="40" cy="47" r="14" />
+    <circle cx="56" cy="34" r="3" fill="#C6A15B" />
+  </g>
+
+  <!-- Heading text -->
+  <text x="400" y="280" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#E5C78A" letter-spacing="1">
+    AUTHENTIC PHOTOGRAPH COMING SOON
+  </text>
+  <text x="400" y="306" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#F7F3E9" opacity="0.9">
+    अस्सल छायाचित्र लवकरच उपलब्ध होईल
+  </text>
+
+  <!-- Badge banner -->
+  <rect x="250" y="370" width="300" height="40" rx="20" fill="rgba(198, 161, 91, 0.15)" stroke="#C6A15B" stroke-width="1.2" />
+  <text x="400" y="395" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#C6A15B">
+    Strict Anti-Stock / Truth-First Policy
+  </text>
+</svg>

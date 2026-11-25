@@ -1,0 +1,25 @@
+# Environment files
+.env
+.env.*
+.env.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.cache
